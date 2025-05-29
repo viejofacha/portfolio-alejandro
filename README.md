@@ -4,7 +4,7 @@
 
 ## 🌐 Lien en ligne
 
-👉 Consultez le site ici : [https://viejofacha.github.io/portfolio-alejandro/](https://viejofacha.github.io/portfolio-alejandro/)
+👉 Consultez le site ici : (https://github.com/viejofacha/portfolio-alejandro.git)
 
 ## 📁 Technologies utilisées
 
