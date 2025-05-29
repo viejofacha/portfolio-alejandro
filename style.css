@@ -1,0 +1,127 @@
+/******* GENERAL *******/
+/* spacing on all sections */
+#about,
+#skills,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+  margin-bottom: 3rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+
+/* display background dark color on navbar scroll */
+.navbar-brand {
+  background-color: rgba(0, 0, 0, 0.4); /* capa oscura sutil */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.navbarScroll.navbarDark {
+  background-color: #0b0c1a;
+}
+.nav-link {
+  color: #ffffff !important; /* blanco puro, puedes cambiarlo por otro */
+}
+.nav-link {
+  background-color: rgba(0, 0, 0, 0.4); /* capa oscura sutil */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.nav-link:hover {
+  color: #00ffff !important; /* color al pasar el mouse, por ejemplo cian */
+}
+
+/* hero background image */
+.bgimage {
+  height: 100vh;
+  max-height: 900px;
+  background: url('images/image1.jpg');
+  background-size: cover;
+  position: relative;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+}
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.4); /* capa oscura sutil */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* about */
+.imageAboutPage {
+  width: 80%;
+}
+.imageAboutPage {
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+/* skills */
+.skillsText.card {
+  height: 350px;
+  cursor: pointer;
+}
+.skillsText img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+#skills p {
+  text-align: center;
+}
+.skillsIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .skillsIcon {
+  color: #008000;
+}
+.skillsText:hover {
+  border: 1px solid #008000;
+}
+
+/* portfolio */
+#portfolio p {
+  text-align: center;
+}
+
+/* contact */
+.contactColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactColumn i {
+  color: #198754;
+}
+.LinkedIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* footer */
