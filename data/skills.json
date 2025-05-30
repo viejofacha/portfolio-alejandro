@@ -1,38 +1,38 @@
 [
     {
-        "image": "html-css.jpg",
+        "image": "images/html-css.webp",
         "title": "HTML - CSS",
         "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
         "alt": "Logos HTML5 et CSS3, technologies de base pour la création de sites web accessibles et responsives"
     },
     {
-        "image": "js.jpg",
+        "image": "images/js.webp",
         "title": "javascript",
         "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
         "alt": "Logo JavaScript, langage utilisé pour créer des éléments interactifs et gérer le DOM"
     },
     {
-        "image": "react.jpg",
+        "image": "images/react.webp",
         "title": "React",
         "text": "Création d’applications React, création de composants et manipulation de leur état",
         "alt": "Logo React, bibliothèque JavaScript pour la création de composants dynamiques"
     },
     {
-        "image": "gestion-de-projet.png",
+        "image": "images/gestion-de-projet.webp",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
         "alt": "Icône représentant l’organisation de tâches ou colonnes Kanban pour la gestion de projets web"
     },
     {
-        "image": "optimisation-et-debug.png",
+        "image": "images/optimisation-et-debug.webp",
         "title": "Optimisation et debug",
         "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
         "alt": "Icône de performance web illustrant l’optimisation de la vitesse de chargement d’un site"
     },
     {
-        "image": "test.png",
+        "image": "images/test.webp",
         "title": "Test",
-        "title ": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
+        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
         "alt": "Icône représentant l’automatisation des tests fonctionnels dans un processus de développement"
 
     }
