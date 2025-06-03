@@ -3,18 +3,18 @@
         "image": "cahier_de_recette.webp",
         "title": "Plan de Test – Cahier de Recette",
         "text": "Un cahier de recette est un document qui liste des scénarios de test.",
-        "link": "#"
+        "link": "docs/PowePoint_P4-correction.pdf"
     },
     {
         "image": "menuMaker.webp",
         "title": "Menu Maker by Qwenta",
         "text": " il s’agit de proposer aux restaurateurs un outil en ligne dynamique, leur permettant de créer, modifier et publier leurs menus de manière autonome et visuell",
-        "link": "#"
+        "link": "docs/Martin_Pedraza_Alejandro_4_presentation_042025.pdf"
     },
     {
         "image": "kasa.api.webp",
         "title": "CRÉER UNE APPLICATIONWEB DE LOCATION IMMOBILIÈRE AVEC REACT",
         "text": "HTTPS://GITHUB.COM/VIEJOFACHA/KASA-API.GIT",
-        "link": "#"
+        "link": "docs/Créer une application web de location immobilière avec React.pdf"
     }
 ]
