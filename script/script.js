@@ -130,9 +130,32 @@ function createPortfolioFromJSON() {
             });
         });
 }
+function createPreviousProjectsMasonry() {
+  const grid = document.getElementById("masonry-grid");
+
+  fetch("data/previous-projects.json")
+    .then((res) => res.json())
+    .then((data) => {
+      data.forEach((item) => {
+        const div = document.createElement("div");
+        div.classList.add("masonry-grid-item");
+        div.innerHTML = `
+          <a href="${item.link}" target="_blank">
+            <img src="${item.image}" alt="${item.title}" title="${item.title}" />
+          </a>
+        `;
+        grid.appendChild(div);
+      });
+    });
+}
+
+
 
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+createPreviousProjectsMasonry();
+
+
