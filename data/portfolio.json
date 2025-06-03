@@ -1,20 +1,20 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "cahier_de_recette.webp",
+        "title": "Plan de Test – Cahier de Recette",
+        "text": "Un cahier de recette est un document qui liste des scénarios de test.",
         "link": "#"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "menuMaker.webp",
+        "title": "Menu Maker by Qwenta",
+        "text": " il s’agit de proposer aux restaurateurs un outil en ligne dynamique, leur permettant de créer, modifier et publier leurs menus de manière autonome et visuell",
         "link": "#"
     },
     {
-        "image": "image3.png",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "kasa.api.webp",
+        "title": "CRÉER UNE APPLICATIONWEB DE LOCATION IMMOBILIÈRE AVEC REACT",
+        "text": "HTTPS://GITHUB.COM/VIEJOFACHA/KASA-API.GIT",
         "link": "#"
     }
 ]
