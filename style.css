@@ -17,6 +17,9 @@
   padding-bottom: 4rem;
 }
 
+h3 {
+  color: #172bb2;
+}
 /* display background dark color on navbar scroll */
 .navbar-brand {
   background-color: rgba(0, 0, 0, 0.4); /* capa oscura sutil */
@@ -43,7 +46,7 @@
 .bgimage {
   height: 100vh;
   max-height: 900px;
-  background: url('images/skay.webp');
+  background: url("images/skay.webp");
   background-size: cover;
   position: relative;
 }
@@ -76,7 +79,30 @@
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
+/* RESPONSIVE: centrar imagen y texto desde 768px hacia abajo */
+@media (max-width: 768px) {
+  #about .row {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
+  #about .col-lg-4,
+  #about .col-lg-8 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  #about .col-md-6 {
+    width: 100%;
+    text-align: center;
+  }
+
+  #about ul {
+    padding-left: 0;
+    list-style-position: inside;
+  }
+}
 /* skills */
 .skillsText.card {
   height: 350px;
@@ -135,7 +161,6 @@
   color: red;
 }
 
-
 /* portfolio */
 #portfolio p {
   text-align: center;
@@ -174,8 +199,15 @@
   }
 }
 
-
 /* contact */
+#contact {
+  width: 99%;
+  border: 2px solid;
+  padding: 10px;
+  box-shadow: 10px 10px 10px #0b1451;
+  background-color: hwb(60 96% 3%);
+}
+
 .contactColumn {
   display: flex;
   flex-direction: column;
@@ -188,5 +220,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #172bb2;
 }
 /* footer */
