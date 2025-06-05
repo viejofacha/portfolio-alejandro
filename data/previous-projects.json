@@ -2,36 +2,43 @@
 {
         "image": "images/louezsiteweb.webp",
         "title": "Louez votre site Web facilement dès aujourd'hui",
-        "link": "https://alquiler-paginas-web.online/"
+        "link": "https://alquiler-paginas-web.online/",
+        "alt":"image tu site web"
     },
     {
         "image": "images/vitaebook.webp",
         "title": "Video Curriculum ",
-        "link": "https://vitaebook.online/"
+        "link": "https://vitaebook.online/",
+        "alt":"video CV"
     },
     {
         "image": "images/logo-mobdeco-oro.avif",
         "title": "MOBDECO Services",
-        "link": "https://www.mobdecoservices.com/"
+        "link": "https://www.mobdecoservices.com/",
+        "alt":"mobdeco"
     },
     {
         "image": "images/cropped-logo.webp",
         "title": "Système d'irrigation intelligent",
-        "link": "https://rachiosprinklercontrol.com/fr/smart-sprinkler-controller-control-your-smart-watering-system-2/"
+        "link": "https://rachiosprinklercontrol.com/fr/smart-sprinkler-controller-control-your-smart-watering-system-2/",
+        "alt":"logo"
     },
     {
         "image": "images/CreativArts.webp",
         "title": "CreativArts & Artisanat",
-        "link": "https://comolohago.online/index.php/fr/accueil/"
+        "link": "https://comolohago.online/index.php/fr/accueil/",
+        "alt":"creative arts"
     }, 
     {
         "image": "images/LOGO-SECURITE-512-1-2-1.webp",
         "title": "Santé et sécurité au Travail",
-        "link": "https://sante-et-hygiene-au-travail.online/"
+        "link": "https://sante-et-hygiene-au-travail.online/",
+        "alt":"site securite au travail"
     },
     {
         "image": "images/logo-small.webp",
         "title": "GUIDE POUR LES MIGRANTS EN EUROPE",
-        "link": "https://emigrantes.eu/"
+        "link": "https://emigrantes.eu/",
+        "alt":"logo site emigrantes"
     }
     ]
