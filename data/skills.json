@@ -1,51 +1,50 @@
 [
-    {
-        "image": "html-css.webp",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
-       "longText": "Création d'interfaces web accessibles et responsives grâce à HTML5 et CSS3. Intégration de maquettes à partir de Figma, maîtrise des grilles Bootstrap et de Flexbox, animation CSS pour enrichir l'expérience utilisateur, et respect des bonnes pratiques en matière de sémantique et d’accessibilité numérique (WCAG).",
-
-        "alt": "Logos HTML5 et CSS3, technologies de base pour la création de sites web accessibles et responsives"
-    },
-    {
-        "image": "js.webp",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
-        "longText": "Développement d'interactions dynamiques avec le DOM (Document Object Model). Manipulation d'événements, validation de formulaires, appels d'API avec Fetch, et utilisation des fonctions modernes de JavaScript (ES6+). Capacité à créer des composants réutilisables et à déboguer avec les outils développeurs du navigateur.",
-
-        "alt": "Logo JavaScript, langage utilisé pour créer des éléments interactifs et gérer le DOM"
-    },
-    {
-        "image": "react.webp",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état",
-        "longText": "Développement d'applications web modernes avec React.js. Création et composition de composants fonctionnels, gestion de l’état avec useState et useEffect, passage de props, gestion des événements, et intégration d’outils comme React Router. Compréhension de la structure d’un projet React et des cycles de vie des composants.",
-
-        "alt": "Logo React, bibliothèque JavaScript pour la création de composants dynamiques"
-    },
-    {
-        "image": "gestion-de-projet.webp",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
-        "longText": "Analyse des besoins fonctionnels du client, rédaction des spécifications techniques, découpage du projet en tâches (méthodologie agile, Kanban), gestion des priorités, communication avec les parties prenantes, et suivi de l’avancement. Utilisation d’outils comme Trello ou Notion pour le pilotage du projet.",
-
-        "alt": "Icône représentant l’organisation de tâches ou colonnes Kanban pour la gestion de projets web"
-    },
-    {
-        "image": "optimisation-et-debug.webp",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
-        "longText": "Analyse des performances du site à l’aide d’outils comme Google Lighthouse. Optimisation du chargement des pages (lazy loading, formats d’image modernes), débogage d’erreurs JavaScript, nettoyage du code CSS, et mise en place de bonnes pratiques pour le SEO technique et l’accessibilité.",
-
-        "alt": "Icône de performance web illustrant l’optimisation de la vitesse de chargement d’un site"
-    },
-    {
-        "image": "test.webp",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
-        "longText": "Rédaction et exécution de tests fonctionnels et exploratoires. Création de plans de test, automatisation des tests E2E avec Cypress, vérification des scénarios critiques (inscription, connexion, panier, etc.), documentation des anomalies détectées dans un cahier de recette, et validation des critères d’acceptation.",
-
-        "alt": "Icône représentant l’automatisation des tests fonctionnels dans un processus de développement"
-
-    }
+  {
+    "image": "html-css.webp",
+    "title": "HTML - CSS",
+    "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS",
+    "longText": "Création d'interfaces web accessibles et responsives grâce à HTML5 et CSS3. Intégration de maquettes à partir de Figma, maîtrise des grilles Bootstrap et de Flexbox, animation CSS pour enrichir l'expérience utilisateur, et respect des bonnes pratiques en matière de sémantique et d’accessibilité numérique (WCAG).",
+    "link2": "modal",
+    "alt": "Logos HTML5 et CSS3, technologies de base pour la création de sites web accessibles et responsives"
+  },
+  {
+    "image": "js.webp",
+    "title": "javascript",
+    "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires",
+    "longText": "Développement d'interactions dynamiques avec le DOM (Document Object Model). Manipulation d'événements, validation de formulaires, appels d'API avec Fetch, et utilisation des fonctions modernes de JavaScript (ES6+). Capacité à créer des composants réutilisables et à déboguer avec les outils développeurs du navigateur.",
+    "link2": "",
+    "alt": "Logo JavaScript, langage utilisé pour créer des éléments interactifs et gérer le DOM"
+  },
+  {
+    "image": "react.webp",
+    "title": "React",
+    "text": "Création d’applications React, création de composants et manipulation de leur état",
+    "longText": "Développement d'applications web modernes avec React.js. Création et composition de composants fonctionnels, gestion de l’état avec useState et useEffect, passage de props, gestion des événements, et intégration d’outils comme React Router. Compréhension de la structure d’un projet React et des cycles de vie des composants.",
+    "link2": "",
+    "alt": "Logo React, bibliothèque JavaScript pour la création de composants dynamiques"
+  },
+  {
+    "image": "gestion-de-projet.webp",
+    "title": "Gestion de projet",
+    "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet",
+    "longText": "Analyse des besoins fonctionnels du client, rédaction des spécifications techniques, découpage du projet en tâches (méthodologie agile, Kanban), gestion des priorités, communication avec les parties prenantes, et suivi de l’avancement. Utilisation d’outils comme Trello ou Notion pour le pilotage du projet.",
+    "link2": "",
+    "alt": "Icône représentant l’organisation de tâches ou colonnes Kanban pour la gestion de projets web"
+  },
+  {
+    "image": "optimisation-et-debug.webp",
+    "title": "Optimisation et debug",
+    "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne",
+    "longText": "Analyse des performances du site à l’aide d’outils comme Google Lighthouse. Optimisation du chargement des pages (lazy loading, formats d’image modernes), débogage d’erreurs JavaScript, nettoyage du code CSS, et mise en place de bonnes pratiques pour le SEO technique et l’accessibilité.",
+    "link2": "",
+    "alt": "Icône de performance web illustrant l’optimisation de la vitesse de chargement d’un site"
+  },
+  {
+    "image": "test.webp",
+    "title": "Test",
+    "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API",
+    "longText": "Rédaction et exécution de tests fonctionnels et exploratoires. Création de plans de test, automatisation des tests E2E avec Cypress, vérification des scénarios critiques (inscription, connexion, panier, etc.), documentation des anomalies détectées dans un cahier de recette, et validation des critères d’acceptation.",
+    "link2": "",
+    "alt": "Icône représentant l’automatisation des tests fonctionnels dans un processus de développement"
+  }
 ]

@@ -1,5 +1,32 @@
 [
     {
+        "image": "sophie-blue.webp",
+        "title": "Sophie Bluel ARCHITECTE D'INTÉRIEUR",
+        "text": "Créez une page web dynamique avec JavaScript",
+        "link": "https://viejofacha.github.io/Sophie-Bluel/",
+    
+        "alt": "Projet: site web Sophie Bluel"
+
+    },
+    {
+        "image": "print-it.webp",
+        "title": "Développer un carrousel sur un site Web en direct",
+        "text": "Créez un carrousel avec HTML et CSS",
+        "link": "https://viejofacha.github.io/Print-it/",
+    
+        "alt": "Projet: site web Sophie Bluel"
+
+    },
+    {
+        "image": "porfolio.webp",
+        "title": "Salut, je m'appelle maçonWeb",
+        "text": "Créez et publiez votre portfolio de testeur logiciel",
+        "link": "https://maconweb.dev",
+    
+        "alt": "Projet:Porfolio Personnsel"
+
+    },
+    {
         "image": "cahier_de_recette.webp",
         "title": "Plan de Test – Cahier de Recette",
         "text": "Un cahier de recette est un document qui liste des scénarios de test.",

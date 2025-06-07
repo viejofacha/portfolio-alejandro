@@ -43,9 +43,11 @@ function createSkillsFromJSON() {
         src="images/${item.image}" 
         alt="${item.alt}" 
         class="img-fluid mb-3"
+         title="Click to INFO"
       />
       <h4 class="card-title">${item.title}</h4>
       <p class="card-text">${item.text}</p>
+       
     </div>
   </div>
 `;
@@ -110,8 +112,8 @@ function createPortfolioFromJSON() {
                         <h4 class="card-title">${item.title}</h4>
                         <p class="card-text">${item.text}</p>
                         <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" title="Link to PDF document">Lien</a>
-
+                            <a href="${item.link}" class="btn btn-success" target="_blank" title="Link to URL ou PDF document">Lien</a>
+                      
                         </div>
                     </div>
                 </div>
