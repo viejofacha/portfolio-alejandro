@@ -235,6 +235,9 @@ summary {
   padding: 2rem;
   border-radius: 1rem;
 }
+.LinkedIn a {
+  color: white !important;
+}
 /* footer */
 .footerimage {
   height: 100vh;
