@@ -95,36 +95,53 @@ function createPortfolioFromJSON() {
   let row = document.createElement("div");
   row.classList.add("row");
 
-  // Load the JSON file
   fetch("data/portfolio.json")
     .then((response) => response.json())
     .then((data) => {
-      // Iterate through the JSON data and create HTML elements
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
-        card.innerHTML = `
-                    <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">${item.title}</h4>
-                        <p class="card-text">${item.text}</p>
-                        <details>
-                        <summary>En savoir plus</summary>
-                        <p>${item.details}</p>
-                        </details><br>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success" target="_blank" title="Link to URL ou PDF document">Lien</a>
-                      
-                        </div>
-                    </div>
-                </div>
-                `;
 
-        // Append the card to the current row
+        // Detectar si es un archivo PDF
+        const isPDF = item.link && item.link.endsWith(".pdf");
+
+        if (isPDF) {
+          card.innerHTML = `
+            <div class="card portfolioContent h-100">
+              <div class="card-body">
+                <h4 class="card-title">${item.title}</h4>
+                <p class="card-text">${item.text}</p>
+                <details>
+                  <summary>En savoir plus</summary>
+                  <div>${item.details}</div>
+                </details>
+                <br>
+                <iframe src="${item.link}" width="100%" height="300" style="border:1px solid #ccc;"></iframe>
+              </div>
+            </div>
+          `;
+        } else {
+          card.innerHTML = `
+            <div class="card portfolioContent h-100">
+              <img class="card-img-top" src="images/${item.image}" alt="${item.alt}" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">${item.title}</h4>
+                <p class="card-text">${item.text}</p>
+                <details>
+                  <summary>En savoir plus</summary>
+                  <div>${item.details}</div>
+                </details>
+                <br>
+                <div class="text-center">
+                  <a href="${item.link}" class="btn btn-success" target="_blank" title="Explorer">Explorer</a>
+                </div>
+              </div>
+            </div>
+          `;
+        }
+
         row.appendChild(card);
 
-        // If the index is a multiple of 3 or it's the last element, create a new row
         if ((index + 1) % 3 === 0 || index === data.length - 1) {
           container.appendChild(row);
           row = document.createElement("div");
@@ -133,6 +150,9 @@ function createPortfolioFromJSON() {
       });
     });
 }
+
+
+
 function createPreviousProjectsMasonry() {
   const grid = document.getElementById("masonry-grid");
 
@@ -144,7 +164,7 @@ function createPreviousProjectsMasonry() {
         div.classList.add("masonry-grid-item");
         div.innerHTML = `
           <a href="${item.link}" target="_blank">
-            <img src="${item.image}" alt="${item.title}" title="${item.title}" alt="${item.alt}" />
+            <img src="${item.image}" title="${item.title}" alt="${item.alt}" />
           </a>
         `;
         grid.appendChild(div);
