@@ -16,7 +16,7 @@
         "link": "https://viejofacha.github.io/Print-it/",
         "details": "<p>Ce projet avait pour objectif de créer un carrousel d’images dynamique en utilisant HTML, CSS et JavaScript. L’idée était de développer un composant interactif permettant à l’utilisateur de faire défiler plusieurs images ou contenus, tout en assurant une transition fluide et contrôlée.</p><p>Le carrousel utilise une structure HTML propre, stylisée avec des animations CSS pour le glissement des éléments. La logique JavaScript permet de gérer les clics sur les flèches de navigation, la boucle automatique, ou encore la sélection manuelle d’une diapositive spécifique.</p><p>Ce projet m’a permis de maîtriser plusieurs aspects essentiels :</p><ul><li>la manipulation du DOM pour changer dynamiquement les classes et les styles,</li><li>la gestion des événements utilisateur (clics, timers, interactions),</li><li>l’utilisation de tableaux pour parcourir et afficher des contenus dynamiques,</li><li>la synchronisation entre l’interface visuelle et la logique JavaScript.</li></ul><p>Ce carrousel constitue une base solide pour des composants plus avancés comme les galeries d’images, les témoignages ou les diaporamas personnalisés, tout en consolidant les compétences en interaction front-end.</p>",
 
-        "alt": "Projet: site web Sophie Bluel"
+        "alt": "Projet: site web Print-it"
 
     },
     {
