@@ -116,7 +116,7 @@ function createPortfolioFromJSON() {
                   <div>${item.details}</div>
                 </details>
                 <br>
-                <iframe src="${item.link}" width="100%" height="300" style="border:1px solid #ccc;"></iframe>
+                <iframe src="${item.link}" width="100%" height="300" style="border:1px solid #ccc;" title="powerPoint"></iframe>
               </div>
             </div>
           `;
