@@ -188,6 +188,12 @@ details {
   background-color: #f9f9f9;
   margin-top: 1rem;
 }
+details a{
+  color: #024CBB !important;
+}
+code{
+  color: #951D59 !important;
+}
 
 summary {
   cursor: pointer;
