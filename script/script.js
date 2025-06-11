@@ -133,7 +133,7 @@ function createPortfolioFromJSON() {
                 </details>
                 <br>
                 <div class="text-center">
-                  <a href="${item.link}" class="btn btn-success" target="_blank" title="Explorer">Explorer</a>
+                  <a href="${item.link}" class="btn btn-success" target="_blank" title="découvrir le projet">Explorer</a>
                 </div>
               </div>
             </div>
