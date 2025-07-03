@@ -24,10 +24,10 @@
         "alt":"logo site rachiosprinklercontrol"
     },
     {
-        "image": "images/CreativArts.webp",
-        "title": "CreativArts & Artisanat",
-        "link": "https://comolohago.online/index.php/fr/accueil/",
-        "alt":"creative arts"
+        "image": "images/logo de comolohago online.webp",
+        "title": "Aprende a moverte en internet con confianza",
+        "link": "https://comolohago.online/",
+        "alt":"logo del sitio comolohago.online"
     }, 
     {
         "image": "images/LOGO-SECURITE-512-1-2-1.webp",
@@ -40,5 +40,11 @@
         "title": "GUIDE POUR LES MIGRANTS EN EUROPE",
         "link": "https://emigrantes.eu/",
         "alt":"logo site emigrantes"
-    }
+    },
+    {
+        "image": "images/todo-ok online.webp",
+        "title": "Verifica tu sitio web",
+        "link": "https://todo-ok.online/",
+        "alt":"logo site todo-ok online"
+    }   
     ]
